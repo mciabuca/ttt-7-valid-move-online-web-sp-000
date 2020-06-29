@@ -5,6 +5,8 @@ def valid_move?(board, index)
     return false
   elsif board.any? && position_taken?(board, index) == false
     return true
+  else
+    return false
  end
 end
 
